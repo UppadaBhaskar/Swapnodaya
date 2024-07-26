@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swapnodaya</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+    </style>
+</head>
+
+<body class="ml-8 pr-10 bg-white font-times">
+    <nav class="flex flex-row lg:flex-row justify-between items-center p-4 pt-6 pb-6">
+        <h1 class="text-4xl font-semibold font-serif">SWAPNODAYA</h1>
+        <div class="lg:hidden flex items-center">
+            <button id="menu-icon" class="text-3xl focus:outline-none">☰</button>
+        </div>
+        <ul id="menu-items" class="hidden lg:flex flex-col lg:flex-row items-center mt-4 md:mt-0 text-2xl font-serif gap-10">
+            <li><a href="#" class="hover:text-blue-500">Home</a></li>
+            <li><a href="#" class="hover:text-blue-500">Training</a></li>
+            <li><a href="#" class="hover:text-blue-500">Internship</a></li>
+            <li><a href="#" class="hover:text-blue-500">Students</a></li>
+            <li><a href="#" class="hover:text-blue-500">Placements</a></li>
+            <li><a href="#" class="hover:text-blue-500">Our Team</a></li>
+            <li><a href="#" class="hover:text-blue-500">Contact Us</a></li>
+            <button class="bg-blue-600 text-white rounded px-4 py-2 mt-2 md:mt-0 hover:bg-blue-700">Login</button>
+        </ul>
+    </nav>
+
+    <div id="overlay" class="fixed inset-0 bg-white bg-opacity-90 hidden flex flex-col items-center justify-center z-50">
+        <button id="close-menu" class="absolute top-4 right-4 text-3xl">&times;</button>
+        <h1 class="text-4xl font-semibold font-serif mb-8">SWAPNODAYA</h1>
+        <ul class="text-2xl font-serif gap-10 text-center">
+            <li class="mb-4"><a href="#" class="hover:text-blue-500">Home</a></li>
+            <li class="mb-4"><a href="#" class="hover:text-blue-500">Training</a></li>
+            <li class="mb-4"><a href="#" class="hover:text-blue-500">Internship</a></li>
+            <li class="mb-4"><a href="#" class="hover:text-blue-500">Students</a></li>
+            <li class="mb-4"><a href="#" class="hover:text-blue-500">Placements</a></li>
+            <li class="mb-4"><a href="#" class="hover:text-blue-500">Our Team</a></li>
+            <li class="mb-4"><a href="#" class="hover:text-blue-500">Contact Us</a></li>
+            <button class="bg-blue-600 text-white rounded px-4 py-2 hover:bg-blue-700">Login</button>
+        </ul>
+    </div>
+
+    <section class="relative bg-cover bg-center h-80 md:h-screen rounded-3xl" style="background-image: url('https://swapnodaya.com/static/media/heroimg.ad7abf60b66a82161a01.jpg'); height:700px;">
+        <div class="absolute inset-0 "></div>
+        <div class="absolute z-10 flex items-center justify-center h-full bg-opacity-0 ">
+            <div class=" relative ml-20 text-center text-white px-4  py-2 max-w-2xl bg-black bg-opacity-0 rounded ">
+                <p class="text-xl md:text-2xl lg:text-4xl text-black font-base font-serif  ">A Charitable Trust that provides Training and Placement Assistance exclusively to undergraduate students in Tier 2 and Tier 3 Colleges, from Extremely Challenged Financial backgrounds</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-8 px-4 md:px-8">
+        <h2 class="text-center text-2xl md:text-3xl font-bold mb-4">VISION</h2>
+        <p class="text-center text-xl md:text-4xl italic">“To become a one-stop Training and Placement platform for the underprivileged, yet meritorious, students studying in the lesser-known Tier 2 and 3 colleges that are scattered across India's semi-urban and rural areas”</p>
+    </section>
+
+    <section class=" py-8 px-4 md:px-8 ">
+        <h3 class="text-sm md:text-lg font-semibold text-blue-700 mb-4">Our Model</h3>
+        <h4 class="text-xl md:text-4xl  font-semibold font-bold">How we help</h4>
+        <div style="background-color: #FAEBD7;" class="sm:gap-10  py-8  px-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  mt-8 rounded-xl justify-between">
+            <div style="background-color: #B3C1F5; width: 350px;" class=" p-4 rounded shadow-md  ">
+                <h5 class="text-lg md:text-2xl font-bold m-3">STEP #1</h5>
+                <p class="text-lg mt-6 mb-6"><strong>Identify</strong> deserving students through entrance tests and personal interviews.</p>
+            </div>
+            <div style="background-color: #B3C1F5;  width: 350px;" class="bg-white p-4 rounded shadow-md">
+                <h5 class="text-lg md:text-2xl font-bold m-3">STEP #2</h5>
+                <p class="text-lg mt-6 mb-6"><strong>Train</strong> extensively on technology tools, aptitude & spoken English.</p>
+            </div>
+            <div style="background-color: #B3C1F5;  width: 350px;" class="bg-white p-4 rounded shadow-md">
+                <h5 class="text-lg md:text-2xl font-bold m-3">STEP #3</h5>
+                <p class="text-lg mt-6 mb-6">Provide the right <strong>Internships</strong> for practical exposure.</p>
+            </div>
+            <div style="background-color: #B3C1F5;  width: 350px;" class="bg-white p-4 rounded shadow-md ">
+                <h5 class="text-lg md:text-2xl font-bold m-3">STEP #4</h5>
+                <p class="text-lg mt-6 mb-6">Connect the students with companies for <strong>Placements.</strong> </p>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section class="py-8 px-4 md:px-8 flex flex-col lg:flex-row font-serif gap-10 ">
+        <div class="text-2xl w-59/10">
+            <h3 class="text-2xl md:text-3xl font-base text-blue-700 mb-4 ">What we have done thus far</h3>
+            <br>
+            <h4 class="text-xl md:text-4xl font-bold mb-4">Our Progress</h4>
+            <br><br>
+            <p class="mb-4">Since Swapnodaya's inception in 2021, the Trust so far upskilled around 40 students, and is currently working with a batch of 110 students for the year 2023-24.</p>
+            <br><br>
+            <p class="mb-4">Upskilled students have been successfully placed in companies like Deloitte, Siemens Healthineers, Canopus, Pacewisdom, Thought Process etc.</p>
+        </div>
+        <div style="background-color:rgb(255, 255, 255);" class="  lg:w-5/4">
+            <div id="testimonial-section" class="relative overflow-hidden">
+                <div id="testimonial-1" class="testimonial-item p-4 py-24 rounded-3xl bg-gray-300 text-center">
+                    <img src="https://swapnodaya.com/l2.jpeg" class="rounded-full w-24 h-24 mx-auto"/>
+                    <h5 class="text-lg md:text-3xl font-bold mb-2">Lavanya</h5>
+                    <p class="text-md md:text-lg">Data Analyst, Deloitte Bengaluru</p>
+                    <p class="mt-2 ml-20 mr-20 text-lg">Swapnodaya was a Godsend for me. But for Swapnodaya's training and placements assistance, I would not be working for a top MNC today. Swapnodaya handheld my journey through this whole process like a guide and coach.</p>
+                </div>
+                <div id="testimonial-2" class="testimonial-item p-4 py-24 rounded-3xl bg-gray-300 text-center hidden">
+                    <img src="https://swapnodaya.com/sushmith1.jpg" class="rounded-full w-24 h-24 mx-auto"/>
+                    <h5 class="text-lg md:text-3xl font-bold mb-2">Sushmitha</h5>
+                    <p class="text-md md:text-lg">Data Analyst, Deloitte Bengaluru</p>
+                    <p class="mt-2 ml-20 mr-20 text-lg">Swapnodaya did not just upskill us in Tech subjects, but dealt with us like a friendly and trusted mentor, always encouraging us and boosting our self-confidence. I consider it my good fortune that I could do the Swapnodaya program.</p>
+                </div>
+                <div id="testimonial-3" class="testimonial-item p-4 py-24 rounded-3xl bg-gray-300 text-center hidden">
+                    <img src="https://swapnodaya.com/Sw.jpg" class="rounded-full w-24 h-24 mx-auto"/>
+                    <h5 class="text-lg md:text-3xl font-bold mb-2">Neelambika</h5>
+                    <p class="text-md md:text-lg">Data Analyst, Deloitte Bengaluru</p>
+                    <p class="mt-2 ml-20 mr-20 text-lg">Swapnodaya did not just upskill us in Tech subjects, but dealt with us like a friendly and trusted mentor, always encouraging us and boosting our self-confidence. I consider it my good fortune that I could do the Swapnodaya program.</p>
+                </div>
+                <div id="testimonial-4" class="testimonial-item p-4 py-24 rounded-3xl bg-gray-300 text-center hidden">
+                    <img src="https://swapnodaya.com/sushmith1.jpg" class="rounded-full w-24 h-24 mx-auto"/>
+                    <h5 class="text-lg md:text-3xl font-bold mb-2">Sushmitha</h5>
+                    <p class="text-md md:text-lg">Data Analyst, Deloitte Bengaluru</p>
+                    <p class="mt-2 ml-20 mr-20 text-lg">Swapnodaya did not just upskill us in Tech subjects, but dealt with us like a friendly and trusted mentor, always encouraging us and boosting our self-confidence. I consider it my good fortune that I could do the Swapnodaya program.</p>
+                </div>
+                <div id="testimonial-5" class="testimonial-item p-4 py-24 rounded-3xl bg-gray-300 text-center hidden">
+                    <img src="https://swapnodaya.com/nisarga.jpg" class="rounded-full w-24 h-24 mx-auto"/>
+                    <h5 class="text-lg md:text-3xl font-bold mb-2">Nisarga</h5>
+                    <p class="text-md md:text-lg">Data Analyst, Deloitte Bengaluru</p>
+                    <p class="mt-2 ml-20 mr-20 text-lg">Swapnodaya did not just upskill us in Tech subjects, but dealt with us like a friendly and trusted mentor, always encouraging us and boosting our self-confidence. I consider it my good fortune that I could do the Swapnodaya program.</p>
+                </div>
+                <div id="testimonial-6" class="testimonial-item p-4 py-24 rounded-3xl bg-gray-300 text-center hidden">
+                    <img src="https://swapnodaya.com/ranjitha.jpg" class="rounded-full w-24 h-24 mx-auto"/>
+                    <h5 class="text-lg md:text-3xl font-bold mb-2">Ranjitha M R</h5>
+                    <p class="text-md md:text-lg">Data Analyst, Deloitte Bengaluru</p>
+                    <p class="mt-2 ml-20 mr-20 text-lg">Swapnodaya did not just upskill us in Tech subjects, but dealt with us like a friendly and trusted mentor, always encouraging us and boosting our self-confidence. I consider it my good fortune that I could do the Swapnodaya program.</p>
+                </div>
+                <div id="testimonial-7" class="testimonial-item p-4 py-24 rounded-3xl bg-gray-300 text-center hidden">
+                    <img src="https://swapnodaya.com/gurukiran.jpg" class="rounded-full w-24 h-24 mx-auto"/>
+                    <h5 class="text-lg md:text-3xl font-bold mb-2">Gurukiran A C</h5>
+                    <p class="text-md md:text-lg">Data Analyst, Deloitte Bengaluru</p>
+                    <p class="mt-2 ml-20 mr-20 text-lg">Swapnodaya did not just upskill us in Tech subjects, but dealt with us like a friendly and trusted mentor, always encouraging us and boosting our self-confidence. I consider it my good fortune that I could do the Swapnodaya program.</p>
+                </div>
+                <div id="testimonial-8" class="testimonial-item p-4 py-24 rounded-3xl bg-gray-300 text-center hidden">
+                    <img src="https://swapnodaya.com/rakshitha.jpeg" class="rounded-full w-24 h-24 mx-auto"/>
+                    <h5 class="text-lg md:text-3xl font-bold mb-2">Rakshita H R</h5>
+                    <p class="text-md md:text-lg">Data Analyst, Deloitte Bengaluru</p>
+                    <p class="mt-2 ml-20 mr-20 text-lg">Swapnodaya did not just upskill us in Tech subjects, but dealt with us like a friendly and trusted mentor, always encouraging us and boosting our self-confidence. I consider it my good fortune that I could do the Swapnodaya program.</p>
+                </div>
+                <div id="testimonial-9" class="testimonial-item p-4 py-24 rounded-3xl bg-gray-300 text-center hidden">
+                    <img src="https://swapnodaya.com/tejashwini.jpg" class="rounded-full w-24 h-24 mx-auto"/>
+                    <h5 class="text-lg md:text-3xl font-bold mb-2">Tejaswini</h5>
+                    <p class="text-md md:text-lg">Data Analyst, Deloitte Bengaluru</p>
+                    <p class="mt-2 ml-20 mr-20 text-lg">Swapnodaya did not just upskill us in Tech subjects, but dealt with us like a friendly and trusted mentor, always encouraging us and boosting our self-confidence. I consider it my good fortune that I could do the Swapnodaya program.</p>
+                </div>
+                <div id="testimonial-10" class="testimonial-item p-4 py-24 rounded-3xl bg-gray-300 text-center hidden">
+                    <img src="https://swapnodaya.com/nishanth.jpg" class="rounded-full w-24 h-24 mx-auto"/>
+                    <h5 class="text-lg md:text-3xl font-bold mb-2">Nishanth Gowda</h5>
+                    <p class="text-md md:text-lg">Data Analyst, Deloitte Bengaluru</p>
+                    <p class="mt-2 ml-20 mr-20 text-lg">Swapnodaya did not just upskill us in Tech subjects, but dealt with us like a friendly and trusted mentor, always encouraging us and boosting our self-confidence. I consider it my good fortune that I could do the Swapnodaya program.</p>
+                </div>
+
+                <div class="flex justify-center mt-4">
+                    <button class="testimonial-dot w-3 h-3 bg-gray-500 rounded-full mx-2" onclick="showTestimonial(1)"></button>
+                    <button class="testimonial-dot w-3 h-3 bg-gray-500 rounded-full mx-2" onclick="showTestimonial(2)"></button>
+                    <button class="testimonial-dot w-3 h-3 bg-gray-500 rounded-full mx-2" onclick="showTestimonial(3)"></button>
+                    <button class="testimonial-dot w-3 h-3 bg-gray-500 rounded-full mx-2" onclick="showTestimonial(4)"></button>
+                    <button class="testimonial-dot w-3 h-3 bg-gray-500 rounded-full mx-2" onclick="showTestimonial(5)"></button>
+                    <button class="testimonial-dot w-3 h-3 bg-gray-500 rounded-full mx-2" onclick="showTestimonial(6)"></button>
+                    <button class="testimonial-dot w-3 h-3 bg-gray-500 rounded-full mx-2" onclick="showTestimonial(7)"></button>
+                    <button class="testimonial-dot w-3 h-3 bg-gray-500 rounded-full mx-2" onclick="showTestimonial(8)"></button>
+                    <button class="testimonial-dot w-3 h-3 bg-gray-500 rounded-full mx-2" onclick="showTestimonial(9)"></button>
+                    <button class="testimonial-dot w-3 h-3 bg-gray-500 rounded-full mx-2" onclick="showTestimonial(10)"></button>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section class="flex flex-col lg:flex-row py-8 px-4  md:px-8 gap-24">
+        <div>
+            <img src="https://swapnodaya.com/static/media/supportus.05229224fe00857bb089.jpg" class="sm:block-none " />
+        </div>
+        <div class="md:flex-col sm:flex-col ml-24 flex flex-row justify-center lg:flex-col gap-8 ">
+            <div>
+                <h4 class="text-xl md:text-2xl text-blue-500 font-semibold mb-4">Support Us</h4>
+                <br>
+                <h5 class="text-4xlg md:text-4xl font-bold">How you can help</h5>
+                <br><br>
+                <p class="mt-2 text-2xl">Your support could make a huge difference, if you are:</p>
+                <br><br>
+                <ul class="mt-2 text-2xl list-disc list-inside">
+                    <li>A company willing to evaluate and employ our students</li>
+                    <br>
+                    <li>A professional willing to spare some of your time to further our cause</li>
+                    <br>
+                    <li>An entity/individual willing to make a financial contribution to strengthen our cause</li>
+                </ul>
+            </div>
+            <div class="flex sm:justify-center  text-right">
+                <button class="bg-blue-600     text-white rounded px-4 py-2 hover:bg-blue-700">Support Us</button>
+            </div>
+        </div>
+    </section>
+
+    <script>
+         function showTestimonial(index) {
+            const testimonials = document.querySelectorAll('.testimonial-item');
+            testimonials.forEach((testimonial, i) => {
+                if (i === index - 1) {
+                    testimonial.classList.remove('hidden');
+                } else {
+                    testimonial.classList.add('hidden');
+                }
+            });
+
+            const dots = document.querySelectorAll('.testimonial-dot');
+            dots.forEach((dot, i) => {
+                if (i === index - 1) {
+                    dot.classList.add('bg-blue-500');
+                    dot.classList.remove('bg-gray-500');
+                } else {
+                    dot.classList.remove('bg-blue-500');
+                    dot.classList.add('bg-gray-500');
+                }
+            });
+        }
+
+        // Show the first testimonial by default
+        showTestimonial(1);
+
+        // Toggle menu items
+        document.getElementById('menu-icon').addEventListener('click', () => {
+            const menuItems = document.getElementById('menu-items');
+            if (menuItems.classList.contains('hidden')) {
+                menuItems.classList.remove('hidden');
+            } else {
+                menuItems.classList.add('hidden');
+            }
+        });
+
+        document.getElementById('menu-icon').addEventListener('click', function () {
+            document.getElementById('overlay').classList.remove('hidden');
+        });
+
+        document.getElementById('close-menu').addEventListener('click', function () {
+            document.getElementById('overlay').classList.add('hidden');
+        });
+    </script>
+</body>
+
+</html>
